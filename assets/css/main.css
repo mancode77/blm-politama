@@ -769,7 +769,7 @@ h6 {
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: black;
   opacity: 1;
 }
 
@@ -894,6 +894,7 @@ h6 {
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
+  color:#000;
 }
 
 .gallery-single .portfolio-description .testimonial-item h4 {
@@ -971,7 +972,7 @@ h6 {
 }
 
 .services .service-item h4 a {
-  color: #fff;
+  color: black;
 }
 
 .services .service-item p {
@@ -1005,7 +1006,7 @@ h6 {
 .pricing {
   margin-top: 80px;
 }
-
+ 
 .pricing .pricing-item {
   border-bottom: 1px dashed #474a4d;
   width: 100%;
