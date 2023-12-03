@@ -7,9 +7,9 @@
 
 /* Colors */
 :root {
-  --color-default: #fafafa;
-  --color-primary: #27a776;
-  --color-secondary: #161718;
+  --color-default: #161718;
+  --color-primary: #161718;
+  --color-secondary: #fafafa;
 }
 
 /* Smooth scroll behavior */
@@ -23,16 +23,16 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: whitesmoke;
 }
 
-a {
+a  {
   color: var(--color-primary);
   text-decoration: none;
 }
 
 a:hover {
-  color: #32cf93;
+  color: red;
   text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ h6 {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(24, 23, 23, 0.6);
   font-family: var(--font-primary);
 }
 
@@ -69,7 +69,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: grey;
   margin: 4px 10px;
 }
 
@@ -79,7 +79,7 @@ h6 {
   font-size: 36px;
   font-weight: 700;
   font-family: var(--font-secondary);
-  color: #fff;
+  color: black;
 }
 
 /*--------------------------------------------------------------
@@ -94,7 +94,7 @@ h6 {
 .page-header h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   font-family: var(--font-secondary);
 }
 
@@ -105,7 +105,7 @@ h6 {
 }
 
 .page-header p {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .page-header .cta-btn {
@@ -123,7 +123,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: grey;
 }
 
 /*--------------------------------------------------------------
@@ -150,7 +150,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: rgba(34, 36, 35, 0.8);
   color: #fff;
 }
 
@@ -274,7 +274,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 30px 0;
-  background-color: #000;
+  background-color: #800000;
 }
 
 .header .logo {
@@ -290,7 +290,7 @@ h6 {
   font-size: 32px;
   margin: 0;
   font-weight: 400;
-  color: #fff;
+  color: #000;
   font-family: var(--font-secondary);
 }
 
@@ -393,7 +393,7 @@ h6 {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: var(--color-secondary);
+    background-color: #800000;
     transition: 0.3s;
     border-radius: 4px;
   }
@@ -416,7 +416,7 @@ h6 {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: #fff;
+    color: #000000;
   }
 
   .navbar .dropdown:hover>ul {
@@ -477,7 +477,7 @@ h6 {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(173, 11, 11, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -769,7 +769,7 @@ h6 {
 .gallery-single .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: black;
   opacity: 1;
 }
 
@@ -858,7 +858,7 @@ h6 {
 }
 
 .gallery-single .portfolio-info .btn-visit:hover {
-  background: #2cbc85;
+  background: #fff;
 }
 
 .gallery-single .portfolio-description h2 {
@@ -894,6 +894,7 @@ h6 {
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
+  color:#000;
 }
 
 .gallery-single .portfolio-description .testimonial-item h4 {
@@ -971,7 +972,7 @@ h6 {
 }
 
 .services .service-item h4 a {
-  color: #fff;
+  color: black;
 }
 
 .services .service-item p {
@@ -1005,7 +1006,7 @@ h6 {
 .pricing {
   margin-top: 80px;
 }
-
+ 
 .pricing .pricing-item {
   border-bottom: 1px dashed #474a4d;
   width: 100%;
@@ -1238,19 +1239,19 @@ h6 {
   margin-top: 30px;
   padding: 30px 0;
   font-size: 14px;
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  border-top: 1px solid rgba(128, 4, 0);
 }
 
 .footer .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(24, 14, 14, 0.8);
 }
 
 .footer .credits {
   padding-top: 6px;
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(24, 14, 14, 0.8);
 }
 
 .footer .credits a {
