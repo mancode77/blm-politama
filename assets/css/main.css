@@ -23,7 +23,7 @@
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: whitesmoke;
+  background-color: rgb(252, 252, 252);
 }
 
 a  {
@@ -43,6 +43,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  color: #000;
 }
 
 /*--------------------------------------------------------------
@@ -615,6 +616,7 @@ h6 {
   flex-direction: column;
   text-align: center;
   transition: 0.3s;
+  border: 1px solid black;
 }
 
 .testimonials .testimonial-item .stars {
@@ -637,12 +639,12 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: black;
 }
 
 .testimonials .testimonial-item h4 {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   margin: 0;
 }
 
@@ -659,12 +661,14 @@ h6 {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: white;
+  border: 1px solid black;
   opacity: 1;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: black;
+  border: 1px solid black;
 }
 
 .testimonials .swiper-slide {
@@ -865,7 +869,7 @@ h6 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #fff;
+  color: black;
   font-family: var(--font-secondary);
 }
 
@@ -1039,7 +1043,6 @@ h6 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #222425;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1125,7 +1128,7 @@ h6 {
   font-size: 14px;
   background-color: var(--color-secondary);
   border: 1px solid #2e3133;
-  color: #fff;
+  color: black;
 }
 
 .contact .php-email-form input::placeholder,
